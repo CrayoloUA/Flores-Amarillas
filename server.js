@@ -7,7 +7,7 @@ const port = process.env.PORT || 3000;
 app.use(express.static("public"));
 
 // Ruta para la página principal (index.js)
-app.get("/", (req, res) => {
+app.get("/index.js", (req, res) => {
     res.send(`
         <!DOCTYPE html>
         <html lang="es">
@@ -27,7 +27,7 @@ app.get("/", (req, res) => {
 });
 
 // Ruta para la página de flores (flower.js)
-app.get("/flower", (req, res) => {
+app.get("/flower.js", (req, res) => {
     res.send(`
         <!DOCTYPE html>
         <html lang="es">
