@@ -52,7 +52,7 @@ body.appendChild(lyricsDiv);
 // Crear el título principal
 const h1 = document.createElement("h1");
 h1.classList.add("titulo");
-h1.textContent = "Puede que estemos separados, pero recuerda que te amo mucho y no serás espectadora, mi hermosa.";
+h1.textContent = "Hice esto para ti porque, aunque estamos separados, no puedo evitar pensar en todo lo que compartimos y en lo mucho que significas para mí. Estas flores, aunque digitales, representan algo real: mi cariño por ti. No espero nada a cambio, solo quería que supieras que te amo y que, pase lo que pase, siempre habrá un lugar en mi corazón para ti.";
 body.appendChild(h1);
 
 // Crear el div de la noche
